@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "156269963454",
+    "firebase_url": "https://fir-learn-4080a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fir-learn-4080a",
+    "storage_bucket": "fir-learn-4080a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156269963454:android:729993474ba7f2ad7856ef",
+        "android_client_info": {
+          "package_name": "com.example.btbs_tuan9"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156269963454-kepf0nlml69n4usmi3govmtghcf4tk4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkulpDrnM6a_jYl5bIDM0Q5jAZEKBKb5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156269963454-kepf0nlml69n4usmi3govmtghcf4tk4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
