@@ -8,7 +8,7 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.example.btbs_tuan9.databinding.ActivityEmployeeDetailsBinding
-import com.google.firebase.database.DatabaseReference
+
 import com.google.firebase.database.FirebaseDatabase
 
 class EmployeeDetailsActivity : AppCompatActivity() {
@@ -66,9 +66,9 @@ class EmployeeDetailsActivity : AppCompatActivity() {
                 etEmSalary.text.toString()
             )
             Toast.makeText(applicationContext,"Updated",Toast.LENGTH_SHORT).show()
-            binding.tvEmpName.setText(etEmpName.text.toString())
-            binding.tvEmpAge.setText(etEmpAge.text.toString())
-            binding.tvEmpSalary.setText(etEmSalary.text.toString())
+            binding.tvEmpName.text = etEmpName.text.toString()
+            binding.tvEmpAge.text = etEmpAge.text.toString()
+            binding.tvEmpSalary.text = etEmSalary.text.toString()
             alertDialog.dismiss()
         }
 
